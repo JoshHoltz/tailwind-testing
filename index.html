@@ -15,18 +15,23 @@
 
         <!-- DATE -->
         <div class="col-span-1 bg-gray-800 rounded p-2 pb-14 flex flex-col justify-center items-center center-content text-5xl font-semibold hover:bg-gray-600 transition duration-1000 hover:rounded-xl">
-            <h1 id="time"></h1>
-            <h1 id="date"></h1>
+            <!-- <h1 id="time"></h1>
+            <h1 id="date"></h1> -->
         </div>
 
         <div class="col-span-4 bg-gray-700 rounded p-2 hover:bg-gray-500 transition duration-1000 hover:rounded-xl">C2</div>
 
-        <!-- STRAVA IFRAME -->
-        <div class="bg-gray-800 rounded p-1 h-full hover:bg-gray-600 transition duration-1000 hover:rounded-xl">
-            <!-- <iframe class="h-full w-full overflow-y-hidden" src='https://www.strava.com/athletes/122188885/latest-rides/9b349b790284fd779e424eacc23345f74182b18b'></iframe> -->
+        <!-- QUOTE -->
+        <div class="bg-gray-800 rounded cursor-pointer p-1 h-full flex flex-col items-center justify-center hover:bg-gray-600 transition duration-1000 hover:rounded-xl relative" onclick="load()">
+            <!-- <div id="quote" class="font-semibold text-lg">Loading quote...</div>
+            <div id="author" class="underline absolute bottom-3">Author</div>    -->
         </div>
 
-        <div class="bg-gray-700 rounded p-2 hover:bg-gray-500 transition duration-1000 hover:rounded-xl">C4</div>
+        <!-- STRAVA IFRAME -->
+        <div class="bg-gray-700 rounded p-2 hover:bg-gray-500 transition duration-1000 hover:rounded-xl">
+            <!-- <iframe class="h-full w-full overflow-y-hidden rounded" src='https://www.strava.com/athletes/122188885/latest-rides/9b349b790284fd779e424eacc23345f74182b18b'></iframe> -->
+        </div>
+
         <div class="col-span-2 row-span-2 bg-gray-800 p-2 rounded hover:bg-gray-600 transition duration-1000 hover:rounded-xl">C5</div>
         <div class="bg-gray-700 row-span-2 rounded p-2 hover:bg-gray-500 transition duration-1000 hover:rounded-xl">C6</div>
         <div class="col-span-2 bg-gray-800 rounded p-2 hover:bg-gray-600 transition duration-1000 hover:rounded-xl">C7</div>
