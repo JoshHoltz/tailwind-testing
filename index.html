@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body class='bg-slate-950'>
+
+    <div class="m-5 grid grid-cols-5 gap-2 text-center h-screen text-white">
+
+        <!-- DATE -->
+        <div class="col-span-1 bg-gray-800 rounded p-2 pb-14 flex flex-col justify-center items-center center-content text-5xl font-semibold hover:bg-gray-600 transition duration-1000 hover:rounded-xl">
+            <h1 id="time"></h1>
+            <h1 id="date"></h1>
+        </div>
+
+        <div class="col-span-4 bg-gray-700 rounded p-2 hover:bg-gray-500 transition duration-1000 hover:rounded-xl">C2</div>
+
+        <!-- STRAVA IFRAME -->
+        <div class="bg-gray-800 rounded p-1 h-full hover:bg-gray-600 transition duration-1000 hover:rounded-xl">
+            <!-- <iframe class="h-full w-full overflow-y-hidden" src='https://www.strava.com/athletes/122188885/latest-rides/9b349b790284fd779e424eacc23345f74182b18b'></iframe> -->
+        </div>
+
+        <div class="bg-gray-700 rounded p-2 hover:bg-gray-500 transition duration-1000 hover:rounded-xl">C4</div>
+        <div class="col-span-2 row-span-2 bg-gray-800 p-2 rounded hover:bg-gray-600 transition duration-1000 hover:rounded-xl">C5</div>
+        <div class="bg-gray-700 row-span-2 rounded p-2 hover:bg-gray-500 transition duration-1000 hover:rounded-xl">C6</div>
+        <div class="col-span-2 bg-gray-800 rounded p-2 hover:bg-gray-600 transition duration-1000 hover:rounded-xl">C7</div>
+    </div>
+
+</body>
+
+</html>
